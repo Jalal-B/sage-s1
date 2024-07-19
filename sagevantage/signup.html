@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Sage et Vantage</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h1>Inscription</h1>
+        <form action="signup.php" method="post">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirmez le mot de passe :</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            
+            <label for="role">Rôle :</label>
+            <select id="role" name="role">
+                <option value="Administrateur">Admin</option>
+                <option value="Utilisateur">Utilisateur</option>
+            </select>
+            
+            <button type="submit">S'inscrire</button>
+        </form>
+        <p>Déjà un compte ? <a href="login.html">Connectez-vous</a></p>
+    </div>
+</body>
+</html>

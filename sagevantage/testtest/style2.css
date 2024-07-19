@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #ee0a0a;
+}
+
+.container-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+
+}
+.container-body {
+    width: 80%;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 300px 0;
+}
+.container {
+    width: 80%;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.hero {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn-main{
+    background-color: #29523e;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-main:hover {
+    background-color: #ee0a0a;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.feature h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+    
+}

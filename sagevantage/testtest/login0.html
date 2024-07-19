@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Intégration Sage et Vantage</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Intégration Sage/Vantage</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="tasks.html">Tâches</a></li>
+                    <li><a href="users.html">Profil</a></li>
+                    <li><a href="login.html">Connexion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="login-container">
+        <h1>Connexion</h1>
+        <form action="login.php" method="post">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Se connecter</button>
+        </form>
+        <p>Pas encore de compte ? <a href="signup.html">Inscrivez-vous</a></p>
+    </div>
+</body>
+</html>

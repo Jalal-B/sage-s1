@@ -1,0 +1,39 @@
+.user-profile {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.user-profile h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.profile-info {
+    margin-bottom: 2em;
+}
+
+.profile-info p {
+    margin-bottom: 0.5em;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
